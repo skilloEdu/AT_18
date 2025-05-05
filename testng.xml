@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/CODE/SKILLO/AT_18/TestNGMVN_Demo/TestNG_MVN_DEMo">
+        <classes>
+
+            <class name="com.n3qa.lecture14.testng.a1_assertions.AssertEqualsDemonstration">
+                <methods>
+                    <include name="verifyTheCalculationsAreTheSome"/>
+                    <include name="verifyTheDoulbeNumberAreTheSome"/>
+                    <include name="verifyTheWordsAreTheSome"/>
+                    <include name="verifyTheFirstNumberIsBigger"/>
+                </methods>
+            </class>
+
+            <class name="com.n3qa.lecture14.testng.a1_assertions.AssertFalseDemonstration">
+                <methods>
+                    <include name="verifyFirstProvidedNumberIsBiggerThanTheSecondProvidedNumber"/>
+                </methods>
+            </class>
+            <class name="com.n3qa.lecture14.testng.a1_assertions.AssertNotNullDemonstration">
+                <methods>
+                    <include name="verifyThereIsNoNullTextProvided"/>
+                    <include name="verifyThereIsNoNullTextProvidedMSGonFail"/>
+                    <include name="verifyProvidedTextIsNotNull_FAIL"/>
+                    <include name="verifyProvidedTextIsNotNull_FAIL_With_MSG"/>
+                </methods>
+            </class>
+            <class name="com.n3qa.lecture14.testng.a1_assertions.AssertNotSameExample">
+                <methods>
+                    <include name="verifyTheProvidedTextsAreNotTheSame"/>
+                    <include name="verifyTheProvidedTextsAreNotTheSameMSGonFail"/>
+                </methods>
+            </class>
+            <class name="com.n3qa.lecture14.testng.a1_assertions.HardAssertExample">
+                <methods>
+                    <include name="myTest"/>
+                    <include name="myTestTwo"/>
+                </methods>
+            </class>
+            <class name="com.n3qa.lecture14.testng.a1_assertions.HardAssertTryCatchExample">
+                <methods>
+                    <include name="myTest"/>
+                    <include name="myTestTwo"/>
+                </methods>
+            </class>
+            <class name="com.n3qa.lecture14.testng.a1_assertions.SoftAssertExample">
+                <methods>
+                    <include name="myTest"/>
+                    <include name="myTestTwo"/>
+                </methods>
+            </class>
+            <class name="com.n3qa.lecture14.testng.a2_annotations.before.LoginFeature">
+                <methods>
+                    <include name="verifyUserCanUpdateProfileGenderInformation"/>
+                    <include name="verifyUserCanCreateANewPost"/>
+                </methods>
+            </class>
+            <class name="com.n3qa.lecture14.testng.a2_annotations.before.PostFeature">
+                <methods>
+                    <include name="verifyUserCanUpdateProfileGenderInformation"/>
+                    <include name="verifyUserCanCreateANewPost"/>
+                </methods>
+            </class>
+            <class name="com.n3qa.lecture14.testng.a3_prio.PriorityDemonstration">
+                <methods>
+                    <include name="firstPriorityTestCase"/>
+                    <include name="secondPriorityTestCase"/>
+                    <include name="thirdPriorityTestCase"/>
+                </methods>
+            </class>
+            <class name="com.n3qa.lecture14.testng.a4_dependings.DependencyDemonstration">
+                <methods>
+                    <include name="verifyCarEngineCanStart"/>
+                    <include name="verifyUserCanIncreaseSpeedLevelByGasPedal"/>
+                    <include name="verifyUserCanDecreaseSpeedLevelByGasPedal"/>
+                    <include name="verifyFrontTyresDirectionControlledByCarWheelMovement"/>
+                </methods>
+            </class>
+            <class name="com.n3qa.lecture14.testng.a5_grouping.SecondGroupingDemonstration">
+                <methods>
+                    <include name="someTestCaseLivesHere"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

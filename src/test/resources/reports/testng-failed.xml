@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="C:/CODE/SKILLO/AT_18/TestNGMVN_Demo/TestNG_MVN_DEMo(failed)" verbose="0">
+    <classes>
+      <class name="com.n3qa.lecture14.testng.a1_assertions.SoftAssertExample">
+        <methods>
+          <include name="myTest"/>
+        </methods>
+      </class> <!-- com.n3qa.lecture14.testng.a1_assertions.SoftAssertExample -->
+      <class name="com.n3qa.lecture14.testng.a1_assertions.AssertEqualsDemonstration">
+        <methods>
+          <include name="verifyTheCalculationsAreTheSome"/>
+          <include name="verifyTheDoulbeNumberAreTheSome"/>
+          <include name="verifyTheFirstNumberIsBigger"/>
+          <include name="verifyTheWordsAreTheSome"/>
+        </methods>
+      </class> <!-- com.n3qa.lecture14.testng.a1_assertions.AssertEqualsDemonstration -->
+      <class name="com.n3qa.lecture14.testng.a1_assertions.AssertNotNullDemonstration">
+        <methods>
+          <include name="verifyProvidedTextIsNotNull_FAIL_With_MSG"/>
+          <include name="verifyProvidedTextIsNotNull_FAIL"/>
+        </methods>
+      </class> <!-- com.n3qa.lecture14.testng.a1_assertions.AssertNotNullDemonstration -->
+      <class name="com.n3qa.lecture14.testng.a1_assertions.HardAssertExample">
+        <methods>
+          <include name="myTest"/>
+        </methods>
+      </class> <!-- com.n3qa.lecture14.testng.a1_assertions.HardAssertExample -->
+    </classes>
+  </test> <!-- C:/CODE/SKILLO/AT_18/TestNGMVN_Demo/TestNG_MVN_DEMo(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="29" passed="21" failed="8" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-05T21:06:31 EEST" name="All Test Suite" finished-at="2025-05-05T21:06:31 EEST" duration-ms="230">
+    <groups>
+      <group name="breakfast">
+        <method signature="SecondGroupingDemonstration.someTestCaseLivesHere()[pri:0, instance:com.n3qa.lecture14.testng.a5_grouping.SecondGroupingDemonstration@799f10e1]" name="someTestCaseLivesHere" class="com.n3qa.lecture14.testng.a5_grouping.SecondGroupingDemonstration"/>
+      </group> <!-- breakfast -->
+    </groups>
+    <test started-at="2025-05-05T21:06:31 EEST" name="C:/CODE/SKILLO/AT_18/TestNGMVN_Demo/TestNG_MVN_DEMo" finished-at="2025-05-05T21:06:31 EEST" duration-ms="230">
+      <class name="com.n3qa.lecture14.testng.a5_grouping.SecondGroupingDemonstration">
+        <test-method signature="someTestCaseLivesHere()[pri:0, instance:com.n3qa.lecture14.testng.a5_grouping.SecondGroupingDemonstration@799f10e1]" started-at="2025-05-05T21:06:31 EEST" name="someTestCaseLivesHere" finished-at="2025-05-05T21:06:31 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- someTestCaseLivesHere -->
+      </class> <!-- com.n3qa.lecture14.testng.a5_grouping.SecondGroupingDemonstration -->
+      <class name="com.n3qa.lecture14.testng.a2_annotations.before.PostFeature">
+        <test-method is-config="true" signature="clearCookies()[pri:0, instance:com.n3qa.lecture14.testng.a2_annotations.before.PostFeature@2a3b5b47]" started-at="2025-05-05T21:06:31 EEST" name="clearCookies" finished-at="2025-05-05T21:06:31 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method signature="verifyUserCanCreateANewPost()[pri:0, instance:com.n3qa.lecture14.testng.a2_annotations.before.PostFeature@2a3b5b47]" started-at="2025-05-05T21:06:31 EEST" name="verifyUserCanCreateANewPost" finished-at="2025-05-05T21:06:31 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanCreateANewPost -->
+        <test-method is-config="true" signature="clearCookies()[pri:0, instance:com.n3qa.lecture14.testng.a2_annotations.before.PostFeature@2a3b5b47]" started-at="2025-05-05T21:06:31 EEST" name="clearCookies" finished-at="2025-05-05T21:06:31 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method signature="verifyUserCanUpdateProfileGenderInformation()[pri:0, instance:com.n3qa.lecture14.testng.a2_annotations.before.PostFeature@2a3b5b47]" started-at="2025-05-05T21:06:31 EEST" name="verifyUserCanUpdateProfileGenderInformation" finished-at="2025-05-05T21:06:31 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanUpdateProfileGenderInformation -->
+      </class> <!-- com.n3qa.lecture14.testng.a2_annotations.before.PostFeature -->
+      <class name="com.n3qa.lecture14.testng.a1_assertions.SoftAssertExample">
+        <test-method signature="myTest()[pri:0, instance:com.n3qa.lecture14.testng.a1_assertions.SoftAssertExample@595b007d]" started-at="2025-05-05T21:06:31 EEST" name="myTest" finished-at="2025-05-05T21:06:31 EEST" duration-ms="6" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at com.n3qa.lecture14.testng.a1_assertions.SoftAssertExample.myTest(SoftAssertExample.java:22)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest -->
+        <test-method signature="myTestTwo()[pri:0, instance:com.n3qa.lecture14.testng.a1_assertions.SoftAssertExample@595b007d]" started-at="2025-05-05T21:06:31 EEST" name="myTestTwo" finished-at="2025-05-05T21:06:31 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTestTwo -->
+      </class> <!-- com.n3qa.lecture14.testng.a1_assertions.SoftAssertExample -->
+      <class name="com.n3qa.lecture14.testng.a3_prio.PriorityDemonstration">
+        <test-method signature="firstPriorityTestCase()[pri:0, instance:com.n3qa.lecture14.testng.a3_prio.PriorityDemonstration@55b699ef]" started-at="2025-05-05T21:06:31 EEST" name="firstPriorityTestCase" finished-at="2025-05-05T21:06:31 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstPriorityTestCase -->
+        <test-method signature="secondPriorityTestCase()[pri:0, instance:com.n3qa.lecture14.testng.a3_prio.PriorityDemonstration@55b699ef]" started-at="2025-05-05T21:06:31 EEST" name="secondPriorityTestCase" finished-at="2025-05-05T21:06:31 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondPriorityTestCase -->
+        <test-method signature="thirdPriorityTestCase()[pri:0, instance:com.n3qa.lecture14.testng.a3_prio.PriorityDemonstration@55b699ef]" started-at="2025-05-05T21:06:31 EEST" name="thirdPriorityTestCase" finished-at="2025-05-05T21:06:31 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdPriorityTestCase -->
+      </class> <!-- com.n3qa.lecture14.testng.a3_prio.PriorityDemonstration -->
+      <class name="com.n3qa.lecture14.testng.a1_assertions.AssertFalseDemonstration">
+        <test-method signature="verifyFirstProvidedNumberIsBiggerThanTheSecondProvidedNumber()[pri:0, instance:com.n3qa.lecture14.testng.a1_assertions.AssertFalseDemonstration@6ae5aa72]" started-at="2025-05-05T21:06:31 EEST" name="verifyFirstProvidedNumberIsBiggerThanTheSecondProvidedNumber" finished-at="2025-05-05T21:06:31 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFirstProvidedNumberIsBiggerThanTheSecondProvidedNumber -->
+      </class> <!-- com.n3qa.lecture14.testng.a1_assertions.AssertFalseDemonstration -->
+      <class name="com.n3qa.lecture14.testng.a2_annotations.before.LoginFeature">
+        <test-method is-config="true" signature="buildPaths()[pri:0, instance:com.n3qa.lecture14.testng.a2_annotations.before.LoginFeature@351d00c0]" started-at="2025-05-05T21:06:31 EEST" name="buildPaths" finished-at="2025-05-05T21:06:31 EEST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buildPaths -->
+        <test-method is-config="true" signature="provideBrowserCleanState()[pri:0, instance:com.n3qa.lecture14.testng.a2_annotations.before.LoginFeature@351d00c0]" started-at="2025-05-05T21:06:31 EEST" name="provideBrowserCleanState" finished-at="2025-05-05T21:06:31 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- provideBrowserCleanState -->
+        <test-method signature="verifyUserCanCreateANewPost()[pri:0, instance:com.n3qa.lecture14.testng.a2_annotations.before.LoginFeature@351d00c0]" started-at="2025-05-05T21:06:31 EEST" name="verifyUserCanCreateANewPost" finished-at="2025-05-05T21:06:31 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanCreateANewPost -->
+        <test-method is-config="true" signature="getSceenShotsFromExec()[pri:0, instance:com.n3qa.lecture14.testng.a2_annotations.before.LoginFeature@351d00c0]" started-at="2025-05-05T21:06:31 EEST" name="getSceenShotsFromExec" finished-at="2025-05-05T21:06:31 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSceenShotsFromExec -->
+        <test-method is-config="true" signature="provideBrowserCleanState()[pri:0, instance:com.n3qa.lecture14.testng.a2_annotations.before.LoginFeature@351d00c0]" started-at="2025-05-05T21:06:31 EEST" name="provideBrowserCleanState" finished-at="2025-05-05T21:06:31 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- provideBrowserCleanState -->
+        <test-method signature="verifyUserCanUpdateProfileGenderInformation()[pri:0, instance:com.n3qa.lecture14.testng.a2_annotations.before.LoginFeature@351d00c0]" started-at="2025-05-05T21:06:31 EEST" name="verifyUserCanUpdateProfileGenderInformation" finished-at="2025-05-05T21:06:31 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanUpdateProfileGenderInformation -->
+        <test-method is-config="true" signature="getSceenShotsFromExec()[pri:0, instance:com.n3qa.lecture14.testng.a2_annotations.before.LoginFeature@351d00c0]" started-at="2025-05-05T21:06:31 EEST" name="getSceenShotsFromExec" finished-at="2025-05-05T21:06:31 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSceenShotsFromExec -->
+      </class> <!-- com.n3qa.lecture14.testng.a2_annotations.before.LoginFeature -->
+      <class name="com.n3qa.lecture14.testng.a1_assertions.HardAssertTryCatchExample">
+        <test-method signature="myTest()[pri:0, instance:com.n3qa.lecture14.testng.a1_assertions.HardAssertTryCatchExample@5158b42f]" started-at="2025-05-05T21:06:31 EEST" name="myTest" finished-at="2025-05-05T21:06:31 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest -->
+        <test-method signature="myTestTwo()[pri:0, instance:com.n3qa.lecture14.testng.a1_assertions.HardAssertTryCatchExample@5158b42f]" started-at="2025-05-05T21:06:31 EEST" name="myTestTwo" finished-at="2025-05-05T21:06:31 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTestTwo -->
+      </class> <!-- com.n3qa.lecture14.testng.a1_assertions.HardAssertTryCatchExample -->
+      <class name="com.n3qa.lecture14.testng.a1_assertions.HardAssertExample">
+        <test-method signature="myTest()[pri:0, instance:com.n3qa.lecture14.testng.a1_assertions.HardAssertExample@16293aa2]" started-at="2025-05-05T21:06:31 EEST" name="myTest" finished-at="2025-05-05T21:06:31 EEST" duration-ms="6" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.n3qa.lecture14.testng.a1_assertions.HardAssertExample.myTest(HardAssertExample.java:11)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest -->
+        <test-method signature="myTestTwo()[pri:0, instance:com.n3qa.lecture14.testng.a1_assertions.HardAssertExample@16293aa2]" started-at="2025-05-05T21:06:31 EEST" name="myTestTwo" finished-at="2025-05-05T21:06:31 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTestTwo -->
+      </class> <!-- com.n3qa.lecture14.testng.a1_assertions.HardAssertExample -->
+      <class name="com.n3qa.lecture14.testng.a1_assertions.AssertNotSameExample">
+        <test-method signature="verifyTheProvidedTextsAreNotTheSame()[pri:0, instance:com.n3qa.lecture14.testng.a1_assertions.AssertNotSameExample@5c5eefef]" started-at="2025-05-05T21:06:31 EEST" name="verifyTheProvidedTextsAreNotTheSame" finished-at="2025-05-05T21:06:31 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheProvidedTextsAreNotTheSame -->
+        <test-method signature="verifyTheProvidedTextsAreNotTheSameMSGonFail()[pri:0, instance:com.n3qa.lecture14.testng.a1_assertions.AssertNotSameExample@5c5eefef]" started-at="2025-05-05T21:06:31 EEST" name="verifyTheProvidedTextsAreNotTheSameMSGonFail" finished-at="2025-05-05T21:06:31 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheProvidedTextsAreNotTheSameMSGonFail -->
+      </class> <!-- com.n3qa.lecture14.testng.a1_assertions.AssertNotSameExample -->
+      <class name="com.n3qa.lecture14.testng.a4_dependings.DependencyDemonstration">
+        <test-method signature="verifyCarEngineCanStart()[pri:0, instance:com.n3qa.lecture14.testng.a4_dependings.DependencyDemonstration@18078bef]" started-at="2025-05-05T21:06:31 EEST" name="verifyCarEngineCanStart" finished-at="2025-05-05T21:06:31 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCarEngineCanStart -->
+        <test-method signature="verifyFrontTyresDirectionControlledByCarWheelMovement()[pri:1, instance:com.n3qa.lecture14.testng.a4_dependings.DependencyDemonstration@18078bef]" started-at="2025-05-05T21:06:31 EEST" name="verifyFrontTyresDirectionControlledByCarWheelMovement" finished-at="2025-05-05T21:06:31 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFrontTyresDirectionControlledByCarWheelMovement -->
+        <test-method signature="verifyUserCanIncreaseSpeedLevelByGasPedal()[pri:1, instance:com.n3qa.lecture14.testng.a4_dependings.DependencyDemonstration@18078bef]" started-at="2025-05-05T21:06:31 EEST" name="verifyUserCanIncreaseSpeedLevelByGasPedal" finished-at="2025-05-05T21:06:31 EEST" depends-on-methods="com.n3qa.lecture14.testng.a4_dependings.DependencyDemonstration.verifyCarEngineCanStart" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanIncreaseSpeedLevelByGasPedal -->
+        <test-method signature="verifyUserCanDecreaseSpeedLevelByGasPedal()[pri:2, instance:com.n3qa.lecture14.testng.a4_dependings.DependencyDemonstration@18078bef]" started-at="2025-05-05T21:06:31 EEST" name="verifyUserCanDecreaseSpeedLevelByGasPedal" finished-at="2025-05-05T21:06:31 EEST" depends-on-methods="com.n3qa.lecture14.testng.a4_dependings.DependencyDemonstration.verifyUserCanIncreaseSpeedLevelByGasPedal" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanDecreaseSpeedLevelByGasPedal -->
+      </class> <!-- com.n3qa.lecture14.testng.a4_dependings.DependencyDemonstration -->
+      <class name="com.n3qa.lecture14.testng.a1_assertions.AssertEqualsDemonstration">
+        <test-method signature="verifyTheCalculationsAreTheSome()[pri:0, instance:com.n3qa.lecture14.testng.a1_assertions.AssertEqualsDemonstration@2a798d51]" started-at="2025-05-05T21:06:31 EEST" name="verifyTheCalculationsAreTheSome" finished-at="2025-05-05T21:06:31 EEST" duration-ms="13" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<4> but was:<5>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<4> but was:<5>
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:467)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:88)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:318)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:328)
+at com.n3qa.lecture14.testng.a1_assertions.AssertEqualsDemonstration.verifyTheCalculationsAreTheSome(AssertEqualsDemonstration.java:15)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheCalculationsAreTheSome -->
+        <test-method signature="verifyTheDoulbeNumberAreTheSome()[pri:0, instance:com.n3qa.lecture14.testng.a1_assertions.AssertEqualsDemonstration@2a798d51]" started-at="2025-05-05T21:06:31 EEST" name="verifyTheDoulbeNumberAreTheSome" finished-at="2025-05-05T21:06:31 EEST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<4.109999999999999> but was:<2+2.11>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<4.109999999999999> but was:<2+2.11>
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:467)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:88)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:98)
+at com.n3qa.lecture14.testng.a1_assertions.AssertEqualsDemonstration.verifyTheDoulbeNumberAreTheSome(AssertEqualsDemonstration.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheDoulbeNumberAreTheSome -->
+        <test-method signature="verifyTheFirstNumberIsBigger()[pri:0, instance:com.n3qa.lecture14.testng.a1_assertions.AssertEqualsDemonstration@2a798d51]" started-at="2025-05-05T21:06:31 EEST" name="verifyTheFirstNumberIsBigger" finished-at="2025-05-05T21:06:31 EEST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<false> but was:<true>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<false> but was:<true>
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:467)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:88)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:230)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:240)
+at com.n3qa.lecture14.testng.a1_assertions.AssertEqualsDemonstration.verifyTheFirstNumberIsBigger(AssertEqualsDemonstration.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheFirstNumberIsBigger -->
+        <test-method signature="verifyTheWordsAreTheSome()[pri:0, instance:com.n3qa.lecture14.testng.a1_assertions.AssertEqualsDemonstration@2a798d51]" started-at="2025-05-05T21:06:31 EEST" name="verifyTheWordsAreTheSome" finished-at="2025-05-05T21:06:31 EEST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Hello Adam> but was:<Hello Adaam!>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<Hello Adam> but was:<Hello Adaam!>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
+at com.n3qa.lecture14.testng.a1_assertions.AssertEqualsDemonstration.verifyTheWordsAreTheSome(AssertEqualsDemonstration.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheWordsAreTheSome -->
+      </class> <!-- com.n3qa.lecture14.testng.a1_assertions.AssertEqualsDemonstration -->
+      <class name="com.n3qa.lecture14.testng.a1_assertions.AssertNotNullDemonstration">
+        <test-method signature="verifyProvidedTextIsNotNull_FAIL()[pri:0, instance:com.n3qa.lecture14.testng.a1_assertions.AssertNotNullDemonstration@222545dc]" started-at="2025-05-05T21:06:31 EEST" name="verifyProvidedTextIsNotNull_FAIL" finished-at="2025-05-05T21:06:31 EEST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected object to not be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected object to not be null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.assertNotNull(Assert.java:1484)
+at org.testng.Assert.assertNotNull(Assert.java:1468)
+at com.n3qa.lecture14.testng.a1_assertions.AssertNotNullDemonstration.verifyProvidedTextIsNotNull_FAIL(AssertNotNullDemonstration.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProvidedTextIsNotNull_FAIL -->
+        <test-method signature="verifyProvidedTextIsNotNull_FAIL_With_MSG()[pri:0, instance:com.n3qa.lecture14.testng.a1_assertions.AssertNotNullDemonstration@222545dc]" started-at="2025-05-05T21:06:31 EEST" name="verifyProvidedTextIsNotNull_FAIL_With_MSG" finished-at="2025-05-05T21:06:31 EEST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[ !!! The string is null !!! expected object to not be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError:  !!! The string is null !!! expected object to not be null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.assertNotNull(Assert.java:1484)
+at com.n3qa.lecture14.testng.a1_assertions.AssertNotNullDemonstration.verifyProvidedTextIsNotNull_FAIL_With_MSG(AssertNotNullDemonstration.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProvidedTextIsNotNull_FAIL_With_MSG -->
+        <test-method signature="verifyThereIsNoNullTextProvided()[pri:0, instance:com.n3qa.lecture14.testng.a1_assertions.AssertNotNullDemonstration@222545dc]" started-at="2025-05-05T21:06:31 EEST" name="verifyThereIsNoNullTextProvided" finished-at="2025-05-05T21:06:31 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThereIsNoNullTextProvided -->
+        <test-method signature="verifyThereIsNoNullTextProvidedMSGonFail()[pri:0, instance:com.n3qa.lecture14.testng.a1_assertions.AssertNotNullDemonstration@222545dc]" started-at="2025-05-05T21:06:31 EEST" name="verifyThereIsNoNullTextProvidedMSGonFail" finished-at="2025-05-05T21:06:31 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThereIsNoNullTextProvidedMSGonFail -->
+      </class> <!-- com.n3qa.lecture14.testng.a1_assertions.AssertNotNullDemonstration -->
+    </test> <!-- C:/CODE/SKILLO/AT_18/TestNGMVN_Demo/TestNG_MVN_DEMo -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
