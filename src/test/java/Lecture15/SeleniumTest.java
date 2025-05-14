@@ -28,7 +28,7 @@ public class SeleniumTest {
     @Test
     public void verifySeleniumStarts() throws InterruptedException {
 
-        // MAIN TEST ROLES
+        //MAIN TEST ROLES
         String TEST_USER_NAME = "TestingDemos";
         String TEST_USER_PASSWORD = "Test123!";
 
